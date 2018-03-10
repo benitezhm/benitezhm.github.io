@@ -37,7 +37,7 @@
 	})();
 	
 	function sendmail() {
-		/*emailjs.send("default_service","resume_contact", 
+		emailjs.send("default_service","resume_contact", 
 				{from_name: $("#InputName").val(), 
 				from_email: $("#InputEmail").val(), 
 				message: $("#message-text").val()})
@@ -45,7 +45,7 @@
 			   console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
 			}, function(err) {
 			   console.log("FAILED. error=", err);
-			});*/
+			});
 		document.getElementById("contactForm").reset();
 	}
     </script>
